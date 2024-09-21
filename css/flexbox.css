@@ -21,6 +21,16 @@
     flex-flow: column wrap;
 }
 
+/* SEÇÃO SUPERIOR */
+
+.superior__secao__container {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    overflow: scroll; /* adiciona uma barra de rolagem*/
+    gap: 15px;
+}
+
 
 @media (min-width: 834px) {
 
